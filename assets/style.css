@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://w.forfun.com/fetch/9f/9f79962daaa5aa8918b71e1e724525fa.jpeg?w=1470&r=0.5625'); /* Provided image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+}
